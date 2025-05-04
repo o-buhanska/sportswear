@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.root {
+    --button-color: #35c9e4;
+    --button-second-color: #efefef;
+    --header-color-background: #000000;
+    --backround-color: #171b1d;
+    --second-backround-color: #f9f9f9;
+    --text-font: "Roboto Flex", sans-serif;
+    --text-font-title: "Bangers", system-ui;
+
+}
